@@ -6,7 +6,7 @@ function ToyContainer({ toys, onDeleteToy, onUpdateToy }) {
     <ToyCard
       key={toy.id}
       toy={toy}
-      onDeleteToy={onDeleteToy}
+      onDeleteToy={onDeleteToy} 
       onUpdateToy={onUpdateToy}
     />
   ));
